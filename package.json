@@ -1,0 +1,27 @@
+{
+  "name": "pita-weather-api",
+  "description": "Api wrapper for CMS",
+  "scripts": {
+    "lint": "eslint .",
+    "deploy": "openode deploy",
+    "start": "node src/index"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "fast-xml-parser": "^3.11.2",
+    "json-stringify-safe": "^5.0.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Daniele Irsuti",
+  "license": "MIT"
+}
